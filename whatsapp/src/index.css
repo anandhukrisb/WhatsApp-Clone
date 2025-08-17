@@ -1,68 +1,45 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+/* Got it 👍
+Here are the **official WhatsApp brand and UI colors** in **hex codes** (from their branding guidelines and UI inspection):
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+---
 
-a {
+### 🌿 **Primary Brand Colors**
+
+* WhatsApp Green (Main) → **#25D366**
+* Dark Green (Logo outline / accents) → **#075E54**
+* Teal Green → **#128C7E**
+* Light Green (Chat bubble background) → **#DCF8C6**
+
+---
+
+### ⚪ **Neutral / Background Colors**
+
+* White → **#FFFFFF**
+* Very Light Gray (Background) → **#ECE5DD**
+* Light Gray (Borders, UI lines) → **#DADADA**
+* Medium Gray (Icons / text secondary) → **#999999**
+* Dark Gray (Text primary) → **#262626**
+
+---
+
+### 🔵 **Other UI Colors**
+
+* Blue (Links, voice notes play button) → **#34B7F1**
+* Black (Main text) → **#000000**
+* Red (Delete / warnings) → **#FF3B30**
+* Yellow (Message highlight, status) → **#FEEA3B**
+
+---
+
+✅ So the main palette is **Green (#25D366, #075E54, #128C7E)** + **Light Green (#DCF8C6)** with **Neutral grays, Blue (#34B7F1), Yellow, and Red for alerts.**
+
+Do you want me to prepare a **color palette image (swatches)** of all WhatsApp colors for quick reference in your design work?
+ */
+
+
+* {
+  margin: 10;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
